@@ -1,0 +1,82 @@
+body{
+    background: rgb(25, 25, 26);
+    background-size: cover;
+    font-family: 'Trebuchet MS', sans-serif; 
+    color:rgb(0, 146, 230);
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+
+h1{
+    font-family: 'Trebuchet MS', sans-serif;
+    color:rgb(0, 146, 230);
+    text-align: left;
+    font-size: 48px;
+  }
+
+p{
+  font-size: 1.6rem;
+  font-family: "Ubuntu";
+}
+.container{
+    display: inline-block;
+  }
+
+.typed-out{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation: typing 1s steps(20, end) forwards, blinking 0.8s infinite;
+    font-size: 1.6rem;
+    font-family: "Ubuntu";
+    width: 0;
+  }
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+@keyframes blinking {
+    from { border-color: transparent }
+    to { border-color: rgb(0, 57, 90); }
+  }
+
+.multiline {
+    white-space: pre-wrap;
+    
+  }
+
+.ascii-art {
+    text-align: center;
+    font-family: monospace;
+    white-space: pre;
+}
+
+
+span {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: .15em solid rgb(0, 57, 90);
+  animation: typing 1s steps(20, end) forwards, blinking 0.8s infinite;
+  font-size: 1.6rem;
+  font-family: "Ubuntu";
+  width: 0;
+}
+
+@keyframes caret {
+  100% {
+    border-color:transparent;
+  }
+}
+
+code {
+  background-color:#3E3E40;
+  border: 1px solid #999;
+  border-radius: .2rem;
+  display: block;
+  width: 500px;
+  height: 350px;
+  padding: .1rem .3rem .2rem;               
+}
+
+
